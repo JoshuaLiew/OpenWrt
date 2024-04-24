@@ -20,7 +20,8 @@ env:
 
 jobs:
   Build:
-    runs-on: ubuntu-22.04
+    #runs-on: ubuntu-22.04
+    runs-on: self-hosted  # 使用自己的服务器
 
     steps:
     - name: Check Server Performance
